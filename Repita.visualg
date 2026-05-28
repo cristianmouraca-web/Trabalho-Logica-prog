@@ -1,0 +1,14 @@
+algoritmo "Primeiro Programa"
+
+var
+ senha: caractere
+
+inicio
+ enquanto (senha <> "194265") faca
+ escreval("Digite sua senha")
+ leia(senha)
+ limpatela
+ escreval("Senha errada digite novamente.")
+ fimenquanto
+ escreval("Boas vindas!")
+fimalgoritmo
