@@ -1,0 +1,19 @@
+algoritmo "Primeiro Programa"
+
+var
+   num, x: inteiro
+
+inicio
+   escreval("Digite um numero: ")
+   leia(num)
+
+   escreval("A tabuada do ", num, ":")
+
+   x <- 1
+
+   repita
+      escreval(num, " x ", x, " = ", num * x)
+      x <- x + 1
+   ate (x > 10)
+
+fimalgoritmo
