@@ -1,0 +1,28 @@
+algoritmo "Calculadora"
+
+var
+  n2, n1, res: real
+  opr: inteiro
+
+inicio
+
+  escreval("Digite o 1° número: ")
+  leia(n2)
+  escreval("Digite o 2° número: ")
+  leia(n1)
+  escreval("Digite a operação desejada 1|Soma 2|Subtração 3|Multiplicação 4|Divisão")
+  leia(opr)
+escolha opr
+ caso 1
+  res <- n2 + n1
+ caso 2
+  res <- n1 - n2
+ caso 3
+  res <- n1 * n2
+ caso 4 
+  res <- n1 / n2
+ outrocaso
+ escreval("Escolha uma opção valida")
+ fimescolha
+   escreval("Seu resultado é ", res)
+fimalgoritmo
